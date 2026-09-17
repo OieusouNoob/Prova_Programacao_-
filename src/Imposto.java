@@ -29,7 +29,7 @@ public class Imposto {
     }
 
     public double calcularBC( double valor ){
-        return valor;
+        return valor * (this.aliquota / 100);
     }
 
     public double calcularValor( double valor ){

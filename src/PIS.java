@@ -12,10 +12,7 @@ public class PIS extends ImpostoFederal{
     }
 
 
-    @Override 
-    public double calcularBC( double valor ){
-        return 1f;
-    }
+
 
     
     

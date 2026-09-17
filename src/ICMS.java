@@ -18,10 +18,6 @@ public class ICMS extends ImpostoEstadual {
         this.reducao_bc = reducao_bc;
     }
 
-    @Override 
-    public double calcularBC( double valor ){
-        return 1f;
-    }
 
     public double getReducao_bc() {
         return reducao_bc;
