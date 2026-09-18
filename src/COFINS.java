@@ -19,8 +19,10 @@ public class COFINS extends ImpostoFederal {
         this.desconto_base = desconto_base;
     }
 
-
-
+    @Override 
+    public double calcularBC( double valor ){
+        return valor * (this.getAliquota() / 100) - this.desconto_base;
+    }
 
     public double getDesconto_base() {
         return desconto_base;

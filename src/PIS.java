@@ -10,6 +10,12 @@ public class PIS extends ImpostoFederal{
     public PIS(int codigo_receita) { // Mãe == ImpostoFederal
         super(codigo_receita);
     }
+    
+
+    @Override 
+    public double calcularBC( double valor ){
+        return valor * (this.getAliquota() / 100);
+    }
 
 
 

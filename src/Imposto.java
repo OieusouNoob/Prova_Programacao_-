@@ -15,17 +15,17 @@ public class Imposto {
     
 
     public void salvar(){
-
+        System.out.println("Salvando Imposto");
     }
 
     public void alterar(){
-
+        System.out.println("Alterando Imposto");
     }
     public void excluir(){
-
+        System.out.println("Excluindo Imposto");
     }
     public void pesquisar(){
-
+        System.out.println("Pesquisando Imposto");
     }
 
     public double calcularBC( double valor ){
